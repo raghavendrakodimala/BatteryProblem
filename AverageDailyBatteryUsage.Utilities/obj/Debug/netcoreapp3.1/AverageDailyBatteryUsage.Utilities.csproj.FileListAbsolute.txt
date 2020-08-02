@@ -1,0 +1,9 @@
+C:\Users\raghu\OneDrive\Desktop\Practice\BatteryProblem\AverageDailyBatteryUsage.Utilities\bin\Debug\netcoreapp3.1\AverageDailyBatteryUsage.Utilities.deps.json
+C:\Users\raghu\OneDrive\Desktop\Practice\BatteryProblem\AverageDailyBatteryUsage.Utilities\bin\Debug\netcoreapp3.1\AverageDailyBatteryUsage.Utilities.dll
+C:\Users\raghu\OneDrive\Desktop\Practice\BatteryProblem\AverageDailyBatteryUsage.Utilities\bin\Debug\netcoreapp3.1\AverageDailyBatteryUsage.Utilities.pdb
+C:\Users\raghu\OneDrive\Desktop\Practice\BatteryProblem\AverageDailyBatteryUsage.Utilities\obj\Debug\netcoreapp3.1\AverageDailyBatteryUsage.Utilities.csprojAssemblyReference.cache
+C:\Users\raghu\OneDrive\Desktop\Practice\BatteryProblem\AverageDailyBatteryUsage.Utilities\obj\Debug\netcoreapp3.1\AverageDailyBatteryUsage.Utilities.AssemblyInfoInputs.cache
+C:\Users\raghu\OneDrive\Desktop\Practice\BatteryProblem\AverageDailyBatteryUsage.Utilities\obj\Debug\netcoreapp3.1\AverageDailyBatteryUsage.Utilities.AssemblyInfo.cs
+C:\Users\raghu\OneDrive\Desktop\Practice\BatteryProblem\AverageDailyBatteryUsage.Utilities\obj\Debug\netcoreapp3.1\AverageDailyBatteryUsage.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\raghu\OneDrive\Desktop\Practice\BatteryProblem\AverageDailyBatteryUsage.Utilities\obj\Debug\netcoreapp3.1\AverageDailyBatteryUsage.Utilities.dll
+C:\Users\raghu\OneDrive\Desktop\Practice\BatteryProblem\AverageDailyBatteryUsage.Utilities\obj\Debug\netcoreapp3.1\AverageDailyBatteryUsage.Utilities.pdb

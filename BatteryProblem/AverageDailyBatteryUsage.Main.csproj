@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DTO\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AverageDailyBatteryUsage.BusinessLayer\AverageDailyBatteryUsage.BusinessLayer.csproj" />
+    <ProjectReference Include="..\AverageDailyBatteryUsage.DataLayer\AverageDailyBatteryUsage.DataLayer.csproj" />
+  </ItemGroup>
+
+
+</Project>

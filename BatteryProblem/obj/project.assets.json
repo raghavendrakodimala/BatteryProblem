@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "AverageDailyBatteryUsage.BusinessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AverageDailyBatteryUsage.DataLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AverageDailyBatteryUsage.BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AverageDailyBatteryUsage.BusinessLayer.dll": {}
+        }
+      },
+      "AverageDailyBatteryUsage.DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/AverageDailyBatteryUsage.DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AverageDailyBatteryUsage.DataLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "AverageDailyBatteryUsage.BusinessLayer/1.0.0": {
+      "type": "project",
+      "path": "../AverageDailyBatteryUsage.BusinessLayer/AverageDailyBatteryUsage.BusinessLayer.csproj",
+      "msbuildProject": "../AverageDailyBatteryUsage.BusinessLayer/AverageDailyBatteryUsage.BusinessLayer.csproj"
+    },
+    "AverageDailyBatteryUsage.DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../AverageDailyBatteryUsage.DataLayer/AverageDailyBatteryUsage.DataLayer.csproj",
+      "msbuildProject": "../AverageDailyBatteryUsage.DataLayer/AverageDailyBatteryUsage.DataLayer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AverageDailyBatteryUsage.BusinessLayer >= 1.0.0",
+      "AverageDailyBatteryUsage.DataLayer >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\raghu\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\raghu\\OneDrive\\Desktop\\Practice\\BatteryProblem\\BatteryProblem\\AverageDailyBatteryUsage.Main.csproj",
+      "projectName": "AverageDailyBatteryUsage.Main",
+      "projectPath": "C:\\Users\\raghu\\OneDrive\\Desktop\\Practice\\BatteryProblem\\BatteryProblem\\AverageDailyBatteryUsage.Main.csproj",
+      "packagesPath": "C:\\Users\\raghu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\raghu\\OneDrive\\Desktop\\Practice\\BatteryProblem\\BatteryProblem\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\raghu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\raghu\\OneDrive\\Desktop\\Practice\\BatteryProblem\\AverageDailyBatteryUsage.BusinessLayer\\AverageDailyBatteryUsage.BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\raghu\\OneDrive\\Desktop\\Practice\\BatteryProblem\\AverageDailyBatteryUsage.BusinessLayer\\AverageDailyBatteryUsage.BusinessLayer.csproj"
+            },
+            "C:\\Users\\raghu\\OneDrive\\Desktop\\Practice\\BatteryProblem\\AverageDailyBatteryUsage.DataLayer\\AverageDailyBatteryUsage.DataLayer.csproj": {
+              "projectPath": "C:\\Users\\raghu\\OneDrive\\Desktop\\Practice\\BatteryProblem\\AverageDailyBatteryUsage.DataLayer\\AverageDailyBatteryUsage.DataLayer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
